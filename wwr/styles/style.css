@@ -93,7 +93,8 @@ main section img {
 footer {
     background-color: grey;
     padding: 25px 50px;
-    margin-top: 200px
+    margin-top: 200px;
+    margin-bottom: 50px;
 }
 footer a {
   background-color: grey;
