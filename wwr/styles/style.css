@@ -206,7 +206,7 @@ footer a:hover {
     }
 #river-msg h1{
         text-align: center;
-        color: white
+        color: black
         
     
     }
@@ -266,7 +266,7 @@ footer a:hover {
         line-height: 1.5;
     } 
 .footer h3{
-        color:white;    
+        color:black;    
 }   
 footer h3 a:hover{
     text-decoration: underline;
