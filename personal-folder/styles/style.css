@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
 div#content{
@@ -193,8 +193,7 @@ h4{
     grid-row: 1/3;
     z-index: -1
 }
-
-.home-grid{
+.home{
     display: absolute;
     grid-template-columns: repeat(20,1fr);
 }
