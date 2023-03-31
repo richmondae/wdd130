@@ -340,18 +340,6 @@ main section{
 
 
 
-.camping-card{
-    grid-column: 5/7;
-    grid-row: 2/3;
-}
-
-.rapids-card{
-    grid-column: 8/10;
-    grid-row: 2/3
-}
-
-
-
 .rivers-card{
     margin-bottom:200px;
     grid-column: 2/4;
@@ -387,7 +375,35 @@ h2::after{
 main section img{
     box-sizing: border-box;
 }
+#pet-img{
+    width:100%;
+    height: 20%;
+    object-fit: cover;
+    object-position: center center;
+    filter: brightness(1.2) contrast(1.2);
+}
+/* CSS code */
+.pet-grid section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 20px;
+  grid-column-gap: 20px;
+  border-bottom: 15px solid #381D2A; /* Add a 1px solid border at the bottom of each section */
+}
+.pet-grid section:last-child {
+  border-bottom: none; /* Remove the border on the last section */
+}
 
+.pet-grid section img {
+  max-width: 100%;
+  margin-right: 20px;
+}
+.pet-grid section h2 {
+  font-size: 50px;
+  margin-top: 0;
+  grid-column: 1;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
